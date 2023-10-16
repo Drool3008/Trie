@@ -18,5 +18,5 @@ void add(string word,Node* trie)
         }
         trie = trie->child[word[i] - 'A'];
     }
-    trie->isTerminal - true;
+    trie->isTerminal = true;
 }
